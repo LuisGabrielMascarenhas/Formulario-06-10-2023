@@ -45,7 +45,7 @@ namespace Formulario
             if (e.KeyChar == 'o' )
             {
                 var Form = new Form1();
-                Form.Show();
+                Form.ShowDialog();
                 this.Close();
             }
         }
